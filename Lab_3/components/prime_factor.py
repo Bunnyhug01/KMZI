@@ -10,3 +10,10 @@ def prime_factor(number):
     if number > 1:
         result.append(number)
     return result
+
+
+def gcd(a, b):
+    first = prime_factor(a)
+    second = prime_factor(b)
+
+    return set(first).intersection(set(second))

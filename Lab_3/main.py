@@ -10,12 +10,12 @@ def menu():
 
     print(f'Prime factor:\n 1. m {prime_factor(m)} \n 2. n {prime_factor(n)}')
     print(f'GCD: {euclidean_gcd(m, n)}\nGCD Prime factor {gcd(m, n)}\nGCD Extended {euclidean_gcdex(m, n)}')
-    print(f'Phi:\n 1. m {phi(m)} \n 2. n {phi(n)}')
     
     k = 13
     n = 18
     m = 2001
     
+    print(f'Phi:\n 1. m {phi(m)} \n 2. n {phi(n)} \n 3. k {phi(k)}')
     print(f'Z/kZ: {ring(k)}\nZ/nZ: {ring(n)}')
     
     for i in [5, 6, 7]:

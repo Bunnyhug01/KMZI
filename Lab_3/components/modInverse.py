@@ -1,5 +1,5 @@
 from .euclidean_gcdex import euclidean_gcdex
-from. euclidean_gcd import euclidean_gcd
+from .euclidean_gcd import euclidean_gcd
 from .phi import phi
 
 

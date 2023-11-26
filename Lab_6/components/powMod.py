@@ -6,5 +6,5 @@ def powMod(a, b, p):
             b -= 1
         else:
             a = int(a * a % p)
-            b >>= 1
+            b /= 2
     return res
